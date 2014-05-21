@@ -411,7 +411,7 @@
 							
 							var o_p = document.createElement("p");
 							o_p.id = "el_info_"+a;
-							o_p.innerHTML = what_on[a]+"<br />"+opt_what_buy.innerHTML+"<br />"+offers[a].price+"€<br />"+offers[a].area+"[m2]";
+							o_p.innerHTML = what_on[a]+"<br />"+opt_what_rent.innerHTML+"<br />"+where_on[a]+"<br />"+offers[a].price+"€<br />"+offers[a].area+"[m2]";
 							o_d.appendChild(o_p);
 							
 						}
