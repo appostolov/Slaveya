@@ -1,0 +1,303 @@
+body{
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,100,1);
+	margin:0;
+	padding:0;
+}
+
+#menu{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100px;
+	height:100%;
+	min-height:742px;
+	background-color:#0077ff;
+	float:left;
+}
+
+#lights_out{
+	position:absolute;
+	top:10%;
+	width:50%;
+	height:90%;
+	background-color:#0077ff;
+	opacity:0;
+}
+
+#logo{
+	position:absolute;
+	top:5px;
+	left:30px;
+	width:125px;
+	height:55px;
+	z-index: 2;
+	border:5px solid white;
+	border-radius:20px;
+	padding:0;
+}
+
+#logo:hover{
+	width:187.5px;
+	height:82.5px;
+	border:5px solid #0077ff;
+}
+
+#logo img{
+	position:relative;
+	width:100%;
+	height:100%;
+	margin:0;
+	border-radius:15px;
+}
+
+#lang{
+	position:absolute;
+	bottom:20px;
+	left:35px;
+	width:196px;
+	height:48px;
+	background-color:rgba(255,255,255,0.3);
+	border:2px solid #000090;
+	border-radius:5px;
+	z-index: 2;
+}
+
+.lang_but{
+	position:relative;
+	width:40px;
+	height:26px;
+	margin:10px;
+	border:1px solid white;
+	box-shadow:5px 5px 10px black;
+	float:left;
+}
+
+.lang_but:hover{
+	box-shadow:5px 5px 5px black;
+}
+
+.lang_but:active{
+	border:1px solid black;
+}
+
+.lang_but img{
+	position:relative;
+	width:100%;
+	height:100%;
+	
+}
+
+#circle{
+	position:absolute;
+	top:-210px;
+	right:-150px;
+	width:300px;
+	height:300px;
+	border-radius:300px;
+	background-color:#0077ff;
+}
+
+#buttons_container{
+	position:absolute;
+	top:100px;
+	right:-70px;
+	text-align:center;
+}
+
+.button_place{
+	position:relative;
+	width:150px;
+	height:150px;
+	border-radius:150px;
+	background-color:rgba(255,255,100,1);
+	margin-top:-10px;
+}
+
+.button_place img{
+	position:absolute;
+	width:140px;
+	height:140px;
+	top:5px;
+	left:30px;
+}
+
+.button_menu{
+	position:absolute;
+	top:25px;
+	left:50px;
+	width:100px;
+	height:100px;
+	border-radius:100px;
+	opacity:1;
+	z-index: 2;
+	font-weight:bold;
+	line-height:100px;
+	background-color:rgba(255,100,20,0.5);
+	color:white;
+}
+
+.button_menu:hover{
+	position:absolute;
+	top:0px;
+	left:25px;
+	width:150px;
+	height:150px;
+	border-radius:150px;
+	font-weight:bolder;
+	line-height:150px;
+	background-color:rgba(255,255,255,0.5);
+	color:red;
+}
+
+.button_menu select{
+	position:relative;
+	top:40px;
+	left:20px;
+}
+
+.button_menu p{
+	position:relative;
+	margin:0;
+	padding:0;
+	font-family:"Palatino Linotype";
+}
+
+#button_1{
+}
+
+#button_2{
+}
+
+
+#button_3{
+}
+
+
+#button_4{
+}
+
+
+.menus{
+	position:absolute;
+	z-index: 2;
+	padding:100px;
+	width:auto;
+	height:auto;
+	background-color:rgba(240,230,255,0.7);
+	border:7px solid #111;
+	display:none;
+}
+
+.menus:hover{
+	box-shadow:8px 8px 9px #ff5599;
+}
+
+.menus p,input{
+	position:relative;
+	float:left;
+	margin:0;
+}
+
+.menus p{
+	font-weight:bold;
+	color:blue;
+}
+
+.menus b{
+	position:absolute;
+	left:10%;
+	top:10%;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	color:#000055;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bolder;
+}
+
+.menus input,select,option{
+	color:#000055;
+	font-weight:bold;
+	background:#99ff99;
+	border-radius:5px;
+}
+
+.what_radio_but{
+	position:relative;
+}
+
+#what_menu{
+	top:125px;
+	left:200px;
+}
+
+#where_menu{
+	top:265px;
+	left:200px;
+}
+
+#money_menu{
+	top:405px;
+	left:200px;
+}
+
+#area_menu{
+	top:545px;
+	left:200px;
+}
+
+#area{
+	position: relative;
+	left:240px;
+	top:0;
+	width: 70%;
+	min-width:400px;
+	height:auto;
+	min-height:742px;
+	background-color:rgba(255,255,100,1);
+	overflow: auto;
+	margin-bottom:50px;
+}
+
+#area a{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background-color: rgba(200,200,100,1);
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	margin: 25px;
+	color: black;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#area a:hover{
+	box-shadow:5px 5px 7px gray;
+}
+
+#area div{
+	position: absolute;
+	bottom:-20px;
+	right:5px;
+	width: auto;
+	height: auto;
+	border:4px solid black;
+	border-radius:20px;
+	background-color: white;
+	float: left;
+	padding:15px;
+}
+
+#area div:hover{
+	padding:25px;
+}
+
+#area p{
+	position: relative;
+	margin:0px;
+}
