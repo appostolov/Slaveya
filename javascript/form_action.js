@@ -667,4 +667,6 @@ function on_area(){
 	r.style.opacity = "1";
 }
 
-
+function buy_active(){
+	document.getElementById("input_buy").checked = true;
+}
