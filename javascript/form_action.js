@@ -418,7 +418,7 @@
 					}
 				}
 				
-				if(what_selected == all && where_selected == all && for_buy == false){
+				if(what_selected == all && where_selected == all && for_rent == true){
 					for(var a = 0; a < offers.length; a ++){
 						if(offers[a].price >= from_money_selected && offers[a].price <= to_money_selected && offers[a].area >= from_area_selected && offers[a].area <= to_area_selected && offers[a].buying == false){
 							
