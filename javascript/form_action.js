@@ -411,14 +411,14 @@
 							
 							var o_p = document.createElement("p");
 							o_p.id = "el_info_"+a;
-							o_p.innerHTML = what_on[a]+"<br />"+opt_what_rent.innerHTML+"<br />"+where_on[a]+"<br />"+offers[a].price+"€<br />"+offers[a].area+"[m2]";
+							o_p.innerHTML = what_on[a]+"<br />"+opt_what_buy.innerHTML+"<br />"+where_on[a]+"<br />"+offers[a].price+"€<br />"+offers[a].area+"[m2]";
 							o_d.appendChild(o_p);
 							
 						}
 					}
 				}
 				
-				if(what_selected == all && where_selected == all && for_rent == true){
+				if(what_selected == all && where_selected == all && for_buy == false){
 					for(var a = 0; a < offers.length; a ++){
 						if(offers[a].price >= from_money_selected && offers[a].price <= to_money_selected && offers[a].area >= from_area_selected && offers[a].area <= to_area_selected && offers[a].buying == false){
 							
