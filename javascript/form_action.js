@@ -352,6 +352,10 @@
 				var for_buy = document.getElementById("input_buy").checked;
 				var for_rent = document.getElementById("input_rent").checked;
 				
+				if(document.getElementById("input_buy").checked == false && document.getElementById("input_rent").checked == false){
+					document.getElementById("input_buy").checked == true;
+				}
+				
 				var from_money_selected = document.getElementById("from_money").value;
 				if(isNaN(from_money_selected) == true){
 					from_money_selected = 0;
