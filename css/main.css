@@ -271,8 +271,8 @@ body{
 
 #area a{
 	position: relative;
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	background-color: rgba(200,200,100,1);
 	float: left;
 	text-align: center;
